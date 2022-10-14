@@ -53,4 +53,19 @@ header .row{
     width: 60%;
 }
 /* ------------------------------------ESTILOS CONTACT----------------------------- */
+div.contact-form > h3.t-center{
+    padding-top: 2rem;
+    margin: 0;
+}
+label.row{
+    display: flex;
+}
 
+label.row > div.col-1-3{
+    display: flex;
+    justify-content: stretch;
+}
+div.wrap-col{
+    width: 100%;
+    margin: 10px;
+}
