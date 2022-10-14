@@ -1,0 +1,56 @@
+
+/* ----------------------------ESTILOS INDEX-------------------------------------------- */
+/* ESTILOS PARA ALINEAR LOGO CON EL MENÚ DE NAVEGACIÓN */
+header .row{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+/* CODIGO USADO PARA ARREGLAR LADOS DEL BODY */
+.wrap-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.zerogrid{
+    width: 62.5rem;
+}
+
+
+/* CODIGO PARA DIVIDIR CELDAS CON DIFERENTES PORCENTAJES Y EN 3  FILAS */
+.wrap-box > .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row > .col-2-5{
+    width: 40%;
+}
+.row > .col-3-5{
+    width: 60%;
+}
+.row > .col-1-2{
+    width: 50%;
+}
+
+/* CÓDIGO PARA ARREGLAR FOOTER */
+.wrap-footer >.row {
+    display: flex;
+    
+}
+.row > .col-1-3{
+    width: 18.33rem;
+    margin: 0.625rem;
+}
+/* ---------------------------------ESTILOS ABOUT -------------------------------- */
+.single-post > .row.wrap-post{
+    margin-top: 0px;
+}
+
+/* -----------------------------------ESTILOS BLOG--------------------------------- */
+.col-1-2{
+    width: 50%;
+}
+/* ------------------------------------ESTILOS CONTACT----------------------------- */
+
